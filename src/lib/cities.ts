@@ -4,10 +4,9 @@ export interface City {
   country: string
   timeZone: string
   lat: number
+  code: string 
   lng: number
-  code: string // ISO 3166-1 alpha-2, used for flag images
 }
-
 export const CITIES: City[] = [
   { id: "london", name: "London", country: "United Kingdom", timeZone: "Europe/London", lat: 51.5074, lng: -0.1278, code: "gb" },
   { id: "new-york", name: "New York", country: "United States", timeZone: "America/New_York", lat: 40.7128, lng: -74.006, code: "us" },
