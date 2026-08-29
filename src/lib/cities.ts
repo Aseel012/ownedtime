@@ -34,7 +34,6 @@ export function findCity(id: string) {
   return CITIES.find((c) => c.id === id)
 }
 
-/** lat/lng -> percentage position on an equirectangular map div */
 export function projectToPercent(lat: number, lng: number) {
   const x = ((lng + 180) / 360) * 100
   const y = ((90 - lat) / 180) * 100
