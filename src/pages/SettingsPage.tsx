@@ -11,7 +11,6 @@ const APPEARANCES: { id: Appearance; label: string }[] = [
   { id: "dark", label: "Dark" },
   { id: "system", label: "System" },
 ]
-
 export default function SettingsPage() {
   const { settings, setSettings, setHomeCity } = useApp()
   const now = useClock()
