@@ -31,7 +31,6 @@ export default function CalendarPage() {
     const year = cursor.getFullYear()
     const month = cursor.getMonth()
     const firstDay = new Date(year, month, 1)
-    // Monday-first offset
     const offset = (firstDay.getDay() + 6) % 7
     const daysInMonth = new Date(year, month + 1, 0).getDate()
     const result: (Date | null)[] = []
