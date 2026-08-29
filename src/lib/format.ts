@@ -11,7 +11,6 @@ export function formatTime(date: Date, format: TimeFormat, timeZone?: string) {
   return new Intl.DateTimeFormat("en-US", opts).format(date)
 }
 
-
 export function formatShortTime(date: Date, format: TimeFormat, timeZone?: string) {
   const opts: Intl.DateTimeFormatOptions = {
     hour: "2-digit",
