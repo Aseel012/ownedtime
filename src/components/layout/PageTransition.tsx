@@ -7,6 +7,7 @@ export function AnimatePresenceWrapper({
   routeKey: string
   children: React.ReactNode
 }) {
+  
   return (
     <div key={routeKey} className="animate-fade-up">
       {children}
