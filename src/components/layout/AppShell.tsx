@@ -15,6 +15,7 @@ const TITLES: Record<string, string> = {
   "/settings": "Settings",
 }
 
+
 export function AppShell() {
   const [drawerOpen, setDrawerOpen] = useState(false)
   const location = useLocation()
