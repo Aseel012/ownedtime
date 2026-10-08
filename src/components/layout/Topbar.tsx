@@ -13,6 +13,7 @@ export function Topbar({ onMenuClick, title }: { onMenuClick: () => void; title?
         <Menu className="h-5 w-5" />
       </button>
 
+      
       {title && <h1 className="text-sm font-semibold md:hidden">{title}</h1>}
 
       <div className="relative ml-auto hidden max-w-sm flex-1 md:ml-0 md:block">
