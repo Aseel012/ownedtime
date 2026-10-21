@@ -1,7 +1,8 @@
 import { useMemo, useState } from "react"
 import { Bar, BarChart, ResponsiveContainer, Tooltip, XAxis, CartesianGrid } from "recharts"
-import { Card } from "@/components/ui/card"
+
 import { useApp } from "@/store/AppContext"
+import { Card } from "@/components/ui/card"
 import { formatDuration } from "@/lib/format"
 
 type View = "daily" | "weekly" | "monthly"
