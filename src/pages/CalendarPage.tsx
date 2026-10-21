@@ -11,6 +11,7 @@ function toKey(d: Date) {
   return d.toISOString().slice(0, 10)
 }
 
+
 export default function CalendarPage() {
   const { sessions, tasks } = useApp()
   const today = new Date()
