@@ -10,6 +10,7 @@ import TasksPage from "@/pages/TasksPage"
 import InsightsPage from "@/pages/InsightsPage"
 import SettingsPage from "@/pages/SettingsPage"
 
+
 export default function App() {
   return (
     <AppProvider>
