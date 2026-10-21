@@ -10,6 +10,7 @@ import { formatDuration } from "@/lib/format"
 export default function InsightsPage() {
   const { sessions, tasks } = useApp()
 
+  
   const trend = useMemo(() => {
     const focus = sessions.filter((s) => s.completed && s.type === "focus")
     const buckets: { key: string; label: string; minutes: number }[] = []
