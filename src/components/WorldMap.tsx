@@ -9,6 +9,7 @@ export function WorldMap({ className, dotClassName }: { className?: string; dotC
       preserveAspectRatio="none"
       className={cn("pointer-events-none absolute inset-0 h-full w-full", className)}
     >
+      
       {DOTS.map(([x, y], i) => (
         <circle
           key={i}
