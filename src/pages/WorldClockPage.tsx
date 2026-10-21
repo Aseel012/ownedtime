@@ -23,7 +23,6 @@ export default function WorldClockPage() {
           (c.name.toLowerCase().includes(query.toLowerCase()) || c.country.toLowerCase().includes(query.toLowerCase()))
       )
     : []
-
   const addCity = (id: string) => {
     setSettings((s) => ({ ...s, watchedCityIds: [...s.watchedCityIds, id] }))
     setQuery("")
