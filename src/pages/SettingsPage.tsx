@@ -16,6 +16,7 @@ export default function SettingsPage() {
   const now = useClock()
   const home = findCity(settings.homeCityId)
 
+  
   return (
     <div className="mx-auto grid max-w-5xl gap-6 lg:grid-cols-[1.3fr_1fr]">
       <div className="flex flex-col gap-6">
