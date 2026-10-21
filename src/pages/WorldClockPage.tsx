@@ -1,7 +1,8 @@
 import { useState } from "react"
+
+import { Input } from "@/components/ui/input"
 import { Plus, X, Search, Star } from "lucide-react"
 import { Card } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
 import { Flag } from "@/components/Flag"
 import { useApp } from "@/store/AppContext"
 import { useClock } from "@/hooks/useClock"
