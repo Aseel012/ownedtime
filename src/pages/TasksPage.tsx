@@ -80,6 +80,7 @@ export default function TasksPage() {
                   className="rounded-full p-1.5 text-[var(--color-muted)] opacity-0 transition-opacity hover:text-[var(--color-ember)] group-hover:opacity-100"
                   aria-label="Delete task"
                 >
+                  
                   <Trash2 className="h-4 w-4" />
                 </button>
               </li>
