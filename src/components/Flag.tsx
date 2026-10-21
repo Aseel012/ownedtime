@@ -17,7 +17,6 @@ export function Flag({ code, className }: { code: string; className?: string }) 
       </span>
     )
   }
-
   return (
     <img
       src={flagUrl(code, 40)}
